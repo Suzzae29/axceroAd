@@ -1,0 +1,303 @@
+@media screen and (max-width: 768px) {
+    /* .inner-page-heading {
+        width: 100%;
+      }
+      .inner-slider-container {
+        min-height: auto;
+      }
+      .services-container {
+        background: #232121;
+        height: auto;
+      } */
+
+      .full-navigation{
+          /* position: fixed; */
+          /* z-index: 999; */
+          background-image: none;
+      }
+
+      .menu-icon {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 13px;
+        background: none;
+        border-radius: 0px;
+        padding: 8px 0 3px 0;
+        z-index: 100;
+      }
+
+      .mobile-search-icon{
+        display: block;
+        position: absolute;
+        right: 80px;
+        top: 17px;
+        background: none;
+        border-radius: 0px;
+        padding: 8px 0 3px 0;
+        z-index: 100;
+      }
+
+      .mobile-search-icon span i{
+          font-size: 1.3em;
+          color: white;
+      }
+      
+    
+      .menu-icon span {
+        background: transparent;
+        color: white;
+        font-size: 0.7em;
+        outline: none;
+        border: none;
+      }
+      .menu-icon span:hover {
+        color: white;
+      }
+
+      .bar1, .bar2, .bar3 {
+        width: 30px;
+        height: 2px;
+        background-color: white;
+        margin: 6px 0;
+        transition: 0.4s;
+      }
+      
+      .change .bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-4px, 2px)
+      }
+      .leader-container{
+          margin-top: 15px;
+          margin-bottom: 15px;
+      }
+      
+      .change .bar2 {opacity: 0;}
+      
+      .change .bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+      }
+
+      .navigation-bar {
+          padding: 0;
+          margin-top: 64px;
+          position: relative;
+          display: none;
+      }
+
+      .navigation-bar ul {
+        list-style: none;
+        padding: 0;
+        text-align: left;
+      }
+      
+      .navigation-bar ul li {
+        display: block;
+        margin-top: 14px;
+        margin-left: 0px;
+      }
+      
+      .navigation-bar ul li a {
+        display: block;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        transition: 0.3s;
+        border-bottom: 1px solid rgb(39 39 39);
+        margin-top: 10px;
+        padding: 15px 20px;
+        /* text-align: left !important; */
+      }
+
+      .carousel-caption{
+        position: absolute;
+        left: 3%;
+        top:17% !important;
+        right: 3%;
+      }
+      
+      .slider-caption span{
+        color: white;
+        font-size: 2.0em;
+        line-height: 0px;
+      }
+      
+      .slider-caption h1{
+        font-weight: 700;
+        color: white;
+        font-size: 2.5em;
+        line-height: 35px;
+      }
+      .item img {
+        height: 100vh !important;
+          width: 100vh !important;
+          object-fit: cover;
+      }
+      
+      .services-container{
+          height: auto;
+      }
+
+      .carousel-caption h1{
+        color: black;
+        font-size: 2em;
+        line-height: 35px;
+    }
+
+    .services-container{
+        padding: 0px;
+        text-align: center;
+        height: 200px;
+    }
+
+    .comment{
+        color: #9f1c2e;
+        font-size: .9em;
+        text-align: center; 
+        margin-top: 10px;
+        display: block;
+        padding-left: 0px;
+        transition: .2s;
+    }
+
+    .about-text{
+        color: #fff;
+        padding: 20px;
+    }
+    
+    .about-text h2 {
+        font-size: 1.4em;
+        line-height: 1.5;
+        font-weight: lighter !important;
+    }
+
+    .text-image{
+        display: none;
+    }
+
+    .my-footer{
+        margin-top: 0;
+        background-image: none;
+    }
+    .footer-list ul{
+        padding: 0;
+    }
+
+    .footer-list ul li{
+        display: block;
+        margin-top: 14px;
+        font-size: .9em;
+    }
+    
+    .footer-list ul li a{
+        color:white;
+        text-decoration: none;
+        margin-left: 0px;
+        font-size: .98em;
+    }
+    
+    .footer-menu{
+        margin-left: auto;
+    }
+
+    .footer-long-text{
+        font-size: .9em;
+    }
+
+    .put-right-border{
+        display: inline;
+        border-right: none !important;
+    }
+
+    .pictures{
+        margin-top: 10px;
+        width: 100px;
+        height: 100px;
+        background-color: rgb(223, 214, 214) !important;
+        border-radius: 90px
+    }
+
+    .contact-address img{
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact-address {
+        padding: 10px;
+    }
+    .contact-address ul {
+        padding: 0;
+    }
+
+    .contact-address ul li {
+        font-size: .9em;
+    }
+
+    .hat{
+        padding-bottom: 20px;
+    }
+
+    .mobile-search-container{
+        position: fixed;
+        height: 100vh;
+        width: 100vh;
+        /* padding-top: 18%; */
+        top: 10%;
+        left: 0;
+        display: none;
+        z-index: 1;
+        background-color: #ffffffc2;
+    }
+
+    .search-form{
+        background-color: rgb(226, 226, 226);
+        padding: 15px;
+    }
+
+    .search-form input {
+        padding: 15px;
+        background: transparent;
+        width: 40%;
+        outline: none;
+        border: none;
+    }
+
+    .search-form button {
+        background-color: #9f1c2e;
+        border: 1px solid #9f1c2e;
+        padding: 5px 12px;
+        color: white;
+        border-radius: 5px;
+    }
+
+    .detail-big-container{
+        padding-top: 13%;
+        padding-left: 0%;
+        padding-right: 0%;
+        position: fixed;
+        overflow: scroll;
+        height: 100% !important;
+    }
+
+    .main-solution-text{
+        padding: 30px;
+    }
+
+    .main-about-text{
+        padding: 20px;
+    }
+
+    .about-us p{
+        text-align: center;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;   
+    }
+
+    .strategy-text{
+      margin-top: 50px;
+    }
+
+    
+}
